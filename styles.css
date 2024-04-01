@@ -1,0 +1,35 @@
+
+
+.animation {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+}
+  
+.text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 5px;
+    right: 5px;
+    background: rgba(29, 106, 154, 0.72);
+    font-size: 25px;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .2s;
+}
+  
+.animation:hover .text {
+    visibility: visible;
+    opacity: 1;
+}
+
+.line{
+    display: grid;
+    grid-template-columns: 350px 350px 550px 350px 350px;
+    grid-template-rows: 100px;
+    margin-top: 200px;
+    justify-content: center;
+ 
+}
