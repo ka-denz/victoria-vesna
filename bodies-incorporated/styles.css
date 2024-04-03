@@ -4,7 +4,10 @@
     left: 0;
     width: 100%;
     height: 100px;
-    background-color: blue;
+    background-color: #4b90e3;
+    color: #fff;
+    padding-left: 45;
+    font-size: 25px;
 }
 
 .footer {
@@ -13,5 +16,17 @@
     left: 0;
     width: 100%;
     height: 50px; 
-    background-color: blue;
+    background-color: #4b90e3;
+    padding-left: 20;
+    padding-top: 10;
+    color: #fff;
+}
+ 
+body{
+    background-image: url(../project-2-images/vesna-background.jpeg) ;
+    background-size: 3000px;
+    backdrop-filter: blur(50px);
+    
+    
+    
 }
