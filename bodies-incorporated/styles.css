@@ -92,3 +92,22 @@ p{
     font-size: 30;
 
 }
+
+.image1{
+    position: absolute;
+    top: 150px;
+    left: 250px;
+}
+
+.image2{
+    position: absolute;
+    top: 600px;
+    left: 300px;
+}
+
+.image3{
+    position: absolute;
+    top: 600px;
+    left: 650px;
+}
+
